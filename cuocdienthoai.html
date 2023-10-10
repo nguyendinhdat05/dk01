@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <p id="kq"></p>
+
+</body>
+<script>
+    let a = prompt('số giây')
+
+     if (a >= 0 && a < 200 ) {
+         document.getElementById('kq').innerHTML = a * 10
+     } else if (a >= 200 && a < 500) {
+         document.getElementById('kq').innerHTML = a * 20
+
+     } else  {
+        document.getElementById('kq').innerHTML = a * 30
+    }
+
+
+
+
+</script>
+</html>
